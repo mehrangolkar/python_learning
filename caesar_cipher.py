@@ -53,11 +53,13 @@ def decode(text,shift):
 print(asci_art)
 
 while True:
-    method= input("Please enter 'encode' or 'decode'\n").lower()
+    method= input("Please enter 'encode' , 'decode' or 'exit'\n").lower()
+    if(method == 'exit'):
+        break
     text = input('please enter your text\n').lower()
     shift = int(input("Type the Shift number\n"))
     if(method == 'encode'):
         print(encode(text,shift))
     elif(method == 'decode'):
         print(decode(text,shift))
-        
+    print('=========================================================')        
