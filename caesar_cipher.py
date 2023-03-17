@@ -62,4 +62,5 @@ while True:
         print(encode(text,shift))
     elif(method == 'decode'):
         print(decode(text,shift))
-    print('=========================================================')        
+    print('=========================================================')   
+print('Test')     
