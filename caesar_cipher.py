@@ -63,4 +63,3 @@ while True:
     elif(method == 'decode'):
         print(decode(text,shift))
     print('=========================================================')   
-print('Test')     
